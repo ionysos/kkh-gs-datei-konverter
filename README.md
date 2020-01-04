@@ -14,7 +14,7 @@ Nun gibt es ein zusätzliches Excel Tab für den `Datei Konverter`.
 ### Windows
 Lösche die Excel Add-In Datei `DateiKonverter.xlam` aus dem Verzeichnis `C:\Users\<UserName>\AppData\Roaming\Microsoft\AddIns` (`<UserName>` im Pfad muss entsprechend angepasst werden).
 Starte danach Excel (neu), bestätige (eventuell) die Dialog-Box "Wir konnten '`C:\Users\<UserName>\AppData\Roaming\Microsoft\AddIns\DateiKonverter.xlam`' nicht finden. Wurde das Objekt vielleicht verschoben, umbenannt oder gelöscht?" (`<UserName>` im Pfad variiert entsprechend) mit `OK` und wähle über den Tab `Entwicklertools` in der Gruppe `Add-Ins` den Button `Excel-Add-Ins`.
-Deaktiviere anschließend dort den `Dateikonverter`, bestätige die Dialog-Box "Kann den Add-In '`C:\Users\<UserName>\AppData\Roaming\Microsoft\AddIns\DateiKonverter.xlam`' nicht finden. Aus der Liste löschen?" (`<UserName>` im Pfad variiert entsprechend) mit `Ja` und bestätige dies mit betätigen des `OK`-Buttons.
+Deaktiviere anschließend dort den `Dateikonverter`, akzeptiere die Dialog-Box "Kann den Add-In '`C:\Users\<UserName>\AppData\Roaming\Microsoft\AddIns\DateiKonverter.xlam`' nicht finden. Aus der Liste löschen?" (`<UserName>` im Pfad variiert entsprechend) mit `Ja` und bestätige dies mit betätigen des `OK`-Buttons.
 Nun gibt es kein zusätzliches Excel Tab für den `Datei Konverter` (mehr).
 
 > Der Excel Tab `Entwicklertools` kann über `Datei` > `Optionen` > `Menüband anpassen` durch aktivieren bzw. deaktivieren der `Entwicklertools`, im rechten Auswahlfeld des Optionen-Fensters, ein- bzw. ausgeblendet werden. Der `OK`-Button bestätigt auch hier die Einstellung.
@@ -24,6 +24,9 @@ Typ | Wert
 --- | ---
 Betriebssystem: | Windows oder macOS
 Software: | Excel 2007 oder höher
+getestet auf: | Windows 10 Pro 1909 (Build 18363.535; 64-Bit) mit Excel 1911 (Build 12228.20364 Klick-und-Los; 64-Bit)
+
+> Zitierte Dialog-Texte und Feld-Beschriftungen basieren auf dem genannten `getestet auf:`-Setup und können bei Abweichungen unterschiedlich sein.
 
 ### Links
 - https://www.vba-tutorial.de/
