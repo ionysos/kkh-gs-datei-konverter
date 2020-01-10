@@ -3,7 +3,7 @@ Datei Konverter als Excel Add-In zur Nutzung im KKH GS
 
 ## Installation
 ### Windows
-Kopiere die Excel Add-In Datei `DateiKonverter.xlam` aus dem Unterverzeichnis `ribbon` nach `C:\Users\<UserName>\AppData\Roaming\Microsoft\AddIns` (`<UserName>` im Pfad muss entsprechend angepasst werden).
+Kopiere die Excel Add-In Datei `DateiKonverter.xlam` nach `C:\Users\<UserName>\AppData\Roaming\Microsoft\AddIns` (`<UserName>` im Pfad muss entsprechend angepasst werden).
 Starte danach Excel (neu) und wähle über den Tab `Entwicklertools` in der Gruppe `Add-Ins` den Button `Excel-Add-Ins`.
 Aktiviere anschließend dort den `Datei Konverter` und bestätige dies mit betätigen des `OK`-Buttons.
 Nun gibt es ein zusätzliches Excel Tab für den `Datei Konverter`.
@@ -24,6 +24,7 @@ Typ | Wert
 --- | ---
 Betriebssystem: | Windows oder macOS
 Software: | Excel 2007 oder höher
+Sprache: | Deutsch
 getestet auf: | Windows 10 Pro 1909 (Build 18363.535; 64-Bit) mit Excel 1911 (Build 12228.20364 Klick-und-Los; 64-Bit)
 
 > Zitierte Dialog-Texte und Feld-Beschriftungen basieren auf dem genannten `getestet auf:`-Setup und können bei Abweichungen unterschiedlich sein.
